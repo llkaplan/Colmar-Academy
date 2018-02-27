@@ -1,0 +1,54 @@
+/* General Document */
+
+html {
+  font-size: 15px;
+  font-family: sans-serif;
+  color: #292928;
+}
+
+/* Navigation */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  height: 64px;
+  background-color: white;
+}
+
+nav .leftNav {
+  display: flex;
+  align-items: center;
+}
+
+nav .leftNav img {
+  padding-left: 24px;
+  height: 32px;
+}
+nav .leftNav p {
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+}
+nav .leftNav p span {
+  font-weight: 500;
+  color: #474747;
+}
+
+nav .rightNav {
+  padding-right: 24px;
+}
+
+nav .rightNav ul li {
+  display: inline-block;
+  padding-left: 16px;
+}
+
+/* The Header */
+
+header {
+  background-color: #474747;
+}
