@@ -199,7 +199,14 @@ h3 {
 .startLearning .startLearningdiv img {
   width: 100%;
 }
-
-.startLearning .startLearningdiv h3 {
+.startLearning .startLearningdiv .startLearningdivText {
   padding: 16px;
+}
+.startLearning .startLearningdiv .startLearningdivText h3 {
+  padding: 0px;
+}
+.startLearning .startLearningdiv .startLearningdivText span {
+  display: block;
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
