@@ -99,15 +99,23 @@ header {
 
 .contentMenuOptions {
   display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
   padding: 5px;
+  border: 1px solid #BAB8BA;
 }
 
 .content .contentMenuOptions .item {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  width: 100%; 
-  border: 1px solid #BAB8BA;
+  width: 100%;
+  height: auto;
+}
+.content .contentMenuOptions .blank {
+  height: 200px;
+  width: 100%;
+  background-color: white;
 }
 
 .content .contentMenuOptions img {
@@ -166,4 +174,32 @@ h3 {
 #remainingDiv .smallText {
   padding-top: 32px;
   padding-bottom: 32px;
+}
+
+/*Body Div 3 */
+
+.startLearning {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 32px 72px;
+  background-color: #BAB8BA;
+}
+.startLearning h1 {
+  display: block;
+  text-align: center;
+  width: 100%;
+  padding-bottom: 32px;
+}
+.startLearning .startLearningdiv {
+  width: 30%;
+  background-color: white;
+  margin: 16px;
+}
+.startLearning .startLearningdiv img {
+  width: 100%;
+}
+
+.startLearning .startLearningdiv h3 {
+  padding: 16px;
 }
