@@ -9,6 +9,13 @@ html {
 p {
   line-height: 1.5rem;
 }
+/* Header */
+
+.header {
+  display: flex;
+}
+
+
 
 /* Navigation */
 
@@ -51,130 +58,6 @@ nav .rightNav ul li {
   padding-left: 16px;
 }
 
-/* The Header */
-
-header {
-  background-color: #BAB8BA;
-  display: flex;
-  align-items: center;
-}
-.content .button {
-  display: block;
-  width: 100%;
-  background-color: #292928;
-  color: white;
-}
-
-.content .button h2 {
-  text-align: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
-.content .headerText {
-  width: 30%;
-}
-
-/* Body div structures */
-
-.content {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  padding: 98px 0px 24px 32px;
-}
-
-.content .ImageText {
-  width: 60%;
-  margin-right: 24px;
-}
-
-.content .ImageText img {
-  width: 100%;
-}
-
-.content .contentMenuOptions {
-  width: 35%;
-}
-
-.contentMenuOptions {
-  display: flex;
-  justify-content: flex-start;
-  flex-wrap: wrap;
-  padding: 5px;
-  border: 1px solid #BAB8BA;
-}
-
-.content .contentMenuOptions .item {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  width: 100%;
-  height: auto;
-}
-.content .contentMenuOptions .blank {
-  height: 200px;
-  width: 100%;
-  background-color: white;
-}
-
-.content .contentMenuOptions img {
-  width: 35%;
-  height: auto;
-}
-
-.content .contentMenuOptions .menuItemText {
-  display: inline-block;
-  width: 55%;
-}
-
-.content .contentMenuOptions .menuItemText h3 {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-
-h1 {
-  font-weight: 700;
-  font-size: 2.5rem;
-}
-
-h3 {
-  font-weight: 700;
-  font-size: 1.5rem;
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
-}
-
-.smallText {
-  font-size: .8rem;
-}
-
-/* Styles the first div */
-.content img {
-  width: 60%;
-  height: 60%;
-  margin-right: 24px;
-}
-
-/*Body Div 2 */
-
-#remainingDiv {
-  padding-top: 32px;
-}
-
-.content .ImageText {
-  width:60%;
-}
-
-.ImageText h1 {
-  padding-top: 32px;
-  padding-bottom: 24px;
-}
-
-#remainingDiv .smallText {
-  padding-top: 32px;
-  padding-bottom: 32px;
-}
 
 /*Body Div 3 */
 
