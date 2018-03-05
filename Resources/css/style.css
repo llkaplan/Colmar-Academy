@@ -103,34 +103,71 @@ nav .rightNav ul li {
 
 .content {
   display: flex;
-  padding:32px 24px;
 }
 
 .content .ImageText {
   width: 60%;
-  padding-right: 24px;
+  padding:32px 24px;
 }
 
 .content .ImageText img {
   width: 100%;
 }
 
+.content .ImageText h1 {
+  padding-top: 32px;
+  padding-bottom: 24px;
+}
+.content .ImageText .smallText {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
 .content .contentMenuOptions {
+  border-left: 1px solid #BAB8BA;
+  border-right: 1px solid #BAB8BA;
   width: 40%;
 }
+
 .content .contentMenuOptions .item {
+  display: flex;
+  align-items: center;
   padding: 16px;
+  border-top: 1px solid #BAB8BA;
+  border-bottom: 1px solid #BAB8BA;
 }
 
 .content .contentMenuOptions .item:nth-child(1) {
-  padding-top: 0px;
+  border-top: 0px;
+  padding-top: 32px;
 }
+
+.content .contentMenuOptions .item:nth-child(3) {
+  background-color: #BAB8BA;
+}
+
 
 .content .contentMenuOptions .item img {
   width: 35%;
 }
+
 .content .contentMenuOptions .item .menuItemText {
   width: 60%;
+  padding-left: 24px;
+}
+.content .contentMenuOptions .item .menuItemText p {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.content .contentMenuOptions .item .menuItemText .readMoreLink {
+  color: #66ccff;
+  padding: 0px;
+}
+
+.content .contentMenuOptions .item .blank {
+  height: 32px;
+  width: 100%;
 }
 
 /*Body Div 3 */
