@@ -22,6 +22,10 @@ h3 {
 
 /* Navigation */
 
+.secretNav {
+  display: none;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -64,6 +68,7 @@ nav .rightNav ul li {
 
 .header {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   padding: 94px 32px 24px 24px;
   background-color: #BAB8BA;
@@ -151,6 +156,10 @@ nav .rightNav ul li {
 
 .content .contentMenuOptions .item img {
   width: 35%;
+}
+
+.content .contentMenuOptions .item .hiddenItemImage {
+  display: hidden;
 }
 
 .content .contentMenuOptions .item .menuItemText {
@@ -259,4 +268,91 @@ footer .rightHandFooter {
 footer ul li {
   display: inline-block;
   padding-left: 1.5rem;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 935px) {
+
+/* Navigation for mobile */
+  .leftNav {
+    display: none;
+  }
+  .rightNav {
+    display: none;
+  }
+  .secretNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 64px;
+    background-color: white;
+    padding: 0px 32px;
+  }
+/* Header for mobile */
+
+  .header {
+    padding: 0px;
+  }
+  .header .headerImage {
+    width: 100%;
+  }
+  .header .headerText {
+    padding: 32px 16px;
+    width: 100%;
+  }
+  .header .button {
+    display: block;
+    width: 100%;
+    background-color: #292928;
+    color: white;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+/* content for mobile */
+  .content .ImageText {
+    display: none;
+  }
+
+  .content .contentMenuOptions {
+    border-left: none;
+    border-right: none;
+    width: 100%;
+  }
+
+  .content .contentMenuOptions .item {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0px 16px 16px 16px;
+    border-top: none;
+    border-bottom: none;
+  }
+  .content .contentMenuOptions .item:nth-child(1) {
+    padding-top: 16px;
+  }
+
+  .content .contentMenuOptions .item:nth-child(3) {
+    background-color: white;
+  }
+
+  .content .contentMenuOptions .item img {
+    width: 100%;
+  }
+
+  .content .contentMenuOptions .item .menuItemText {
+    width: 100%;
+    padding-left: 16px;
+    padding-top: 24px;
+    padding-bottom: 0px;
+  }
+  .content .contentMenuOptions .item img {
+    display: none;
+  }
+  .content .contentMenuOptions .item .hiddenItemImage {
+    display: block;
+  }
 }
