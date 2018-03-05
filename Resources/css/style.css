@@ -1,7 +1,7 @@
 /* General Document */
 
 html {
-  font-size: 18px;
+  font-size: 15px;
   font-family: sans-serif;
   color: #292928;
 }
@@ -9,13 +9,54 @@ html {
 p {
   line-height: 1.5rem;
 }
+
+h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
 /* Header */
 
 .header {
   display: flex;
+  align-items: center;
+  padding: 94px 32px 24px 24px;
+  background-color: #BAB8BA;
 }
 
 
+.header .headerImage {
+  width: 60%;
+  height: auto;
+}
+
+.header .headerImage img {
+  width: 100%;
+}
+
+.header .headerText {
+  padding-left: 24px;
+  width: 30%;
+}
+
+.header h1 {
+  padding-bottom: 20px;
+}
+.header h3 {
+  padding-bottom: 20px;
+}
+.header .button {
+  display: block;
+  width: 100%;
+  background-color: #292928;
+  color: white;
+  text-align: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
 
 /* Navigation */
 
@@ -56,6 +97,24 @@ nav .rightNav {
 nav .rightNav ul li {
   display: inline-block;
   padding-left: 16px;
+}
+/* Body Div 2 */
+
+.content {
+  display: flex;
+}
+
+.content .ImageText {
+  width: 60%;
+  padding:32px 24px;
+}
+
+.content .ImageText img {
+  width: 100%;
+}
+
+.content .contentMenuOptions {
+  width: 40%;
 }
 
 
