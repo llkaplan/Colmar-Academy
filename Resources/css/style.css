@@ -316,6 +316,10 @@ footer ul li {
     padding-bottom: 8px;
   }
 /* content for mobile */
+  .content {
+    padding-bottom: 32px;
+  }
+
   .content .ImageText {
     display: none;
   }
@@ -361,25 +365,29 @@ footer ul li {
 /* Second div for Start Learning */
 
   .startLearning {
-    padding: 32px 16px;
+    align-items: flex-start;
+    padding: 0px;
+    padding-bottom: 32px;
     background-color: white;
   }
   .headers {
     display: block;
     text-align: center;
     width: 100%;
-    padding-bottom: 32px;
+    padding-bottom: 16px;
   }
   .startLearning .startLearningdiv {
     width: 100%;
     background-color: #BAB8BA;
-    margin-top: 16px;
+    padding: 0px;
+    margin-top: 8px;
+    margin-bottom: 8px;
   }
   .startLearning .startLearningdiv img {
     display: none;
   }
   .startLearning .startLearningdiv .startLearningdivText {
-    padding: 16px;
+    padding: 32px 16px;
   }
   .startLearning .startLearningdiv .startLearningdivText p {
     display: none;
