@@ -14,6 +14,7 @@ h1 {
   font-size: 3rem;
   font-weight: 700;
 }
+
 h3 {
   font-size: 1.5rem;
   font-weight: 700;
@@ -103,6 +104,7 @@ nav .rightNav ul li {
 
 .content {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .content .ImageText {
@@ -126,7 +128,7 @@ nav .rightNav ul li {
 .content .contentMenuOptions {
   border-left: 1px solid #BAB8BA;
   border-right: 1px solid #BAB8BA;
-  width: 40%;
+  width: 35%;
 }
 
 .content .contentMenuOptions .item {
@@ -179,7 +181,7 @@ nav .rightNav ul li {
   padding: 32px 72px;
   background-color: #BAB8BA;
 }
-.startLearning h1 {
+.headers {
   display: block;
   text-align: center;
   width: 100%;
@@ -203,4 +205,58 @@ nav .rightNav ul li {
   display: block;
   padding-top: 8px;
   padding-bottom: 8px;
+}
+
+/*Body Div 4 */
+
+.content .video {
+  width: 60%;
+  padding:32px 24px;
+  padding-top: 0px;
+}
+
+
+.content .video video {
+  width: 100%;
+}
+
+.content .headers {
+  padding-top: 32px;
+}
+
+.content .video h3 {
+  padding-top: 24px;
+  padding-bottom: 8px;
+}
+
+.content .videoSide {
+  border: none;
+}
+
+.videoItem1:nth-child(1) {
+  background-color: #BAB8BA;
+}
+
+.content .videoSide .item:nth-child(2) {
+  border-bottom: none;
+}
+/* Footer */
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 24px;
+  border-top: 1px solid #BAB8BA;
+}
+footer .leftHandFooter {
+  font-size: .8rem;
+}
+footer .rightHandFooter {
+  font-size: .8rem;
+}
+
+footer ul li {
+  display: inline-block;
+  padding-left: 1.5rem;
 }
