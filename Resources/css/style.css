@@ -273,6 +273,10 @@ footer ul li {
 /* Media Queries */
 
 @media screen and (max-width: 935px) {
+/* General for mobile */
+  h1 {
+    font-size: 2rem;
+  }
 
 /* Navigation for mobile */
   .leftNav {
@@ -292,7 +296,6 @@ footer ul li {
     padding: 0px 32px;
   }
 /* Header for mobile */
-
   .header {
     padding: 0px;
   }
@@ -354,5 +357,34 @@ footer ul li {
   }
   .content .contentMenuOptions .item .hiddenItemImage {
     display: block;
+  }
+/* Second div for Start Learning */
+
+  .startLearning {
+    padding: 32px 16px;
+    background-color: white;
+  }
+  .headers {
+    display: block;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 32px;
+  }
+  .startLearning .startLearningdiv {
+    width: 100%;
+    background-color: #BAB8BA;
+    margin-top: 16px;
+  }
+  .startLearning .startLearningdiv img {
+    display: none;
+  }
+  .startLearning .startLearningdiv .startLearningdivText {
+    padding: 16px;
+  }
+  .startLearning .startLearningdiv .startLearningdivText p {
+    display: none;
+  }
+  .startLearning .startLearningdiv .startLearningdivText span {
+    display: none;
   }
 }
